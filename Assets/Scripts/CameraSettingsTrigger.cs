@@ -9,12 +9,16 @@ public class CameraSettingsTrigger : MonoBehaviour
     private CinemachineVirtualCamera virtualCamera;
     private CinemachineFramingTransposer framingComposer;
 
+    public bool changeRotation;
     public Quaternion targetRotation;
+    public bool changeFieldOfView;
     public float fieldOfView;
+    public bool changeDistance;
     public float distance;
 
     // Start is called before the first frame update
-    void Start() {
+    void Start()
+    {
         var cameraObject = GameObject.FindGameObjectWithTag("MainCamera");
         camera = cameraObject.GetComponent<Camera>();
 
@@ -24,11 +28,24 @@ public class CameraSettingsTrigger : MonoBehaviour
         framingComposer = virtualCamera.GetCinemachineComponent<CinemachineFramingTransposer>();
     }
 
-    void OnTriggerEnter(Collider other) {
-        if (other.gameObject.tag == "Player") {
-            virtualCamera.transform.rotation = targetRotation;
-            virtualCamera.m_Lens.FieldOfView = fieldOfView;
-            framingComposer.m_CameraDistance = distance;
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            if (changeRotation)
+            {
+                virtualCamera.transform.rotation = targetRotation;
+            }
+
+            if (changeFieldOfView)
+            {
+                virtualCamera.m_Lens.FieldOfView = fieldOfView;
+            }
+
+            if (changeDistance)
+            {
+                framingComposer.m_CameraDistance = distance;
+            }
         }
     }
 }
