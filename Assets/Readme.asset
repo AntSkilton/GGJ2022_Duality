@@ -12,46 +12,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
   m_Name: Readme
   m_EditorClassIdentifier: 
-  icon: {fileID: 2800000, guid: 44a17a5b205fcd349a24700e6f5615bd, type: 3}
-  title: Third Person Template
+  icon: {fileID: 2800000, guid: 493f3a7e505a3dc4ca19f2dd910a316e, type: 3}
+  title: GGJ2022 Duality
   sections:
-  - heading: About this template
-    text: This template provides the foundation to build a project in the third person perspective, making use of the Starter Assets. It is powered by the Universal Render Pipeline (URP).
-    linkText: 
-    url: 
-  - heading:
-    text: Enter <b>Play</b> mode to experience the default settings of the character controller and camera.
-    linkText: 
-    url:
-  - heading: About Starter Assets
-    text: Starter Assets include first and third person character controllers, built in a modular way to provide a solid foundation for any game genre.
-    linkText: 
-    url: 
-  - heading: 
+  - heading: Brief
+    text: Here's the project brief
+    linkText: Link
+    url: https://docs.google.com/document/d/1vgZD8C_lm6FNF2B3itOzdMLSE9q8kUcrYPfRTI3XGW4/edit
+  - heading: Project structure
     text: 
-    linkText: "Starter Assets: First Person Character Controller"
-    url: http://u3d.as/2z1q
-  - heading: 
-    text: 
-    linkText: "Starter Assets: Third Person Character Controller"
-    url: http://u3d.as/2z1r
-  - heading: 
-    text: The Starter Asset packages are compatible with Unity 2020.3 LTS and leverage the Unity's CharacterController component.
     linkText: 
     url: 
-  - heading: Important note
-    text: The Starter Asset packages require both Input System and Cinemachine packages
-      to work. See the documentation (Assets/StarterAssets_Documentation.pdf) for more details.
+  - heading: Environment
+    text: Environmental assets / materials / prefabs etc go in Environment
     linkText: 
     url: 
-  - heading: Documentation
-    text: See the full documentation (Assets/StarterAssets_Documentation.pdf)
-      for more information on how to set up the Starter Assets in a new Scene, in either
-      HDRP/URP or for mobile devices.
+  - heading: Monsters
+    text: Monster assets / materials / prefabs etc go in here
     linkText: 
     url: 
-  - heading: We want to hear your feedback
-    text: 
-    linkText: Please let us know what you think about this package.
-    url: https://unitysoftware.co1.qualtrics.com/jfe/form/SV_5cg7IkyOprbHqia?packagename=starterassets
+  - heading: Player
+    text: 'Player etc goes here '
+    linkText: 
+    url: 
+  - heading: Scripts
+    text: Currently all scripts go here.. Anyone got a better idea?
+    linkText: 
+    url: 
+  - heading: Univeral Render Pipeline
+    text: 'If you import assets that were created using the "Standard" shader you
+      will need to convert them.  Use this handy shortcut to do it:'
+    linkText: Link
+    url: https://github.com/AntSkilton/GGJ2022_Duality/blob/main/universalrenderpipeline.png
   loadedLayout: 1
