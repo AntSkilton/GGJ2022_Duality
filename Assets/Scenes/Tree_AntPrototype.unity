@@ -988,70 +988,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &100889288
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 100889290}
-  - component: {fileID: 100889289}
-  m_Layer: 0
-  m_Name: gameplayController
-  m_TagString: GameController
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &100889289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100889288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53d600b4369edfb4695f513cf379fdf7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShadowBlockerVolumes:
-  - {fileID: 1642991802}
-  - {fileID: 1701337341}
-  - {fileID: 775685750}
-  - {fileID: 833403406}
-  - {fileID: 1747055924}
-  - {fileID: 1604204423}
-  - {fileID: 1266054638}
-  - {fileID: 1920623201}
-  ShadowBlockerMeshes:
-  - {fileID: 1083684606}
-  - {fileID: 45594106}
-  - {fileID: 10045421}
-  - {fileID: 824895302}
-  - {fileID: 1509024250}
-  - {fileID: 1181799026}
-  - {fileID: 1212804401}
-  - {fileID: 414917423}
-  ScoreTarget: 80
-  LevelTimer: 20
-  CurrentScore: 0
---- !u!4 &100889290
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100889288}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &125834367
 Mesh:
   m_ObjectHideFlags: 0
@@ -11324,23 +11260,6 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
---- !u!1 &1317926643 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1317926643, guid: ffae3a01005c8544fad168a3ef278a1a, type: 3}
-  m_PrefabInstance: {fileID: 1211731562428275396}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1317926644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317926643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee2c4ad6d7f4da041aa5a3e769be8d46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!43 &1389080927
 Mesh:
   m_ObjectHideFlags: 0
@@ -18865,6 +18784,127 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &325108433088659099
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 325108433122020433, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 325108433122020433, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325108433122020433, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325108433122020433, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325108433122020433, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 325108433122020433, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325108433122020433, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325108433122020433, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325108433122020433, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325108433122020433, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325108433122020433, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 325108433122020434, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: ShadowBlockerMeshes.Array.data[0]
+      value: 
+      objectReference: {fileID: 1083684606}
+    - target: {fileID: 325108433122020434, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: ShadowBlockerMeshes.Array.data[1]
+      value: 
+      objectReference: {fileID: 45594106}
+    - target: {fileID: 325108433122020434, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: ShadowBlockerMeshes.Array.data[2]
+      value: 
+      objectReference: {fileID: 10045421}
+    - target: {fileID: 325108433122020434, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: ShadowBlockerMeshes.Array.data[3]
+      value: 
+      objectReference: {fileID: 824895302}
+    - target: {fileID: 325108433122020434, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: ShadowBlockerMeshes.Array.data[4]
+      value: 
+      objectReference: {fileID: 1509024250}
+    - target: {fileID: 325108433122020434, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: ShadowBlockerMeshes.Array.data[5]
+      value: 
+      objectReference: {fileID: 1181799026}
+    - target: {fileID: 325108433122020434, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: ShadowBlockerMeshes.Array.data[6]
+      value: 
+      objectReference: {fileID: 1212804401}
+    - target: {fileID: 325108433122020434, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: ShadowBlockerMeshes.Array.data[7]
+      value: 
+      objectReference: {fileID: 414917423}
+    - target: {fileID: 325108433122020434, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: ShadowBlockerVolumes.Array.data[0]
+      value: 
+      objectReference: {fileID: 1642991802}
+    - target: {fileID: 325108433122020434, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: ShadowBlockerVolumes.Array.data[1]
+      value: 
+      objectReference: {fileID: 1701337341}
+    - target: {fileID: 325108433122020434, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: ShadowBlockerVolumes.Array.data[2]
+      value: 
+      objectReference: {fileID: 775685750}
+    - target: {fileID: 325108433122020434, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: ShadowBlockerVolumes.Array.data[3]
+      value: 
+      objectReference: {fileID: 833403406}
+    - target: {fileID: 325108433122020434, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: ShadowBlockerVolumes.Array.data[4]
+      value: 
+      objectReference: {fileID: 1747055924}
+    - target: {fileID: 325108433122020434, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: ShadowBlockerVolumes.Array.data[5]
+      value: 
+      objectReference: {fileID: 1604204423}
+    - target: {fileID: 325108433122020434, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: ShadowBlockerVolumes.Array.data[6]
+      value: 
+      objectReference: {fileID: 1266054638}
+    - target: {fileID: 325108433122020434, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: ShadowBlockerVolumes.Array.data[7]
+      value: 
+      objectReference: {fileID: 1920623201}
+    - target: {fileID: 325108433122020435, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
+      propertyPath: m_Name
+      value: gameplayController
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 394c5f7105da8a84197224a534fa0798, type: 3}
 --- !u!1001 &1211731562428275396
 PrefabInstance:
   m_ObjectHideFlags: 0
