@@ -7,7 +7,7 @@ public class GameplayController : MonoBehaviour
     public int ScoreTarget;
     public float LevelTimer;
 
-    private int m_currentScore;
+    public int CurrentScore;
 
     private void Update()
     {
@@ -16,7 +16,7 @@ public class GameplayController : MonoBehaviour
 
     private void ScoreTimeHandler()
     {
-        if (m_currentScore >= ScoreTarget)
+        if (CurrentScore >= ScoreTarget)
         {
             Debug.Log("You Win");
         }
