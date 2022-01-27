@@ -26,7 +26,7 @@ public class TimeUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        var timeLeft = gameController.LevelTimer;
+        var timeLeft = gameController.CurrentTime;
         textRenderer.text = $"{timeLeft:00.0}";
     }
 }
