@@ -22,8 +22,7 @@ public class ScoreUI : MonoBehaviour
 
         gameController = controllerObj.GetComponent<GameplayController>();
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         var score = gameController.CurrentScore;

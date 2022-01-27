@@ -7,7 +7,8 @@ public class GameplayController : MonoBehaviour
     public int ScoreTarget;
     public float LevelTimer;
 
-    public int CurrentScore;
+    public float CurrentScore;
+    private bool m_canCountdown = true;
 
     private void Update()
     {
@@ -21,10 +22,15 @@ public class GameplayController : MonoBehaviour
             Debug.Log("You Win");
         }
 
-        LevelTimer -= Time.deltaTime;
-
-        if (LevelTimer <= 0.0f)
+        if (LevelTimer > 0.0f)
         {
+            m_canCountdown = true;
+            LevelTimer -= Time.deltaTime;
+        }
+        else
+        {
+            m_canCountdown = false;
+            LevelTimer = 0.0f;
             Debug.Log("You Lose");
         }
     }

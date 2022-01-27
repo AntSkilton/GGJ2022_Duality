@@ -17,26 +17,26 @@ public class ChangeLevelWithKeyboard : MonoBehaviour
             {
                 if (k.wasPressedThisFrame)
                 {
-                    if (k.keyCode == Key.Digit1)
+                    switch (k.keyCode)
                     {
-                        LoadLevel(scenes[0]);
-                    }
-
-                    if (k.keyCode == Key.Digit2)
-                    {
-                        LoadLevel(scenes[1]);
+                        case Key.Digit1:
+                            LoadLevel(scenes[0]);
+                            break;
+                        case Key.Digit2:
+                            LoadLevel(scenes[1]);
+                            break;
                     }
                 }
             }
         }
     }
 
-    void LoadLevel(string sceneName)
+    private void LoadLevel(string sceneName)
     {
         var currentScene = SceneManager.GetActiveScene().name;
         if (currentScene != sceneName)
         {
-            Application.LoadLevel(sceneName);
+            SceneManager.LoadScene(sceneName);
         }
     }
 }

@@ -27,6 +27,6 @@ public class TimeUI : MonoBehaviour
     void Update()
     {
         var timeLeft = gameController.LevelTimer;
-        textRenderer.text = timeLeft.ToString("0.00");
+        textRenderer.text = $"{timeLeft:00.0}";
     }
 }
