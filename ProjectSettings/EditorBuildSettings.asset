@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Corridor.unity
     guid: 2116035da1a9f4348957041a657a5a90
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AudioTests.unity
     guid: 2ae8c642ca69e6f489975252fc2036a0
   m_configObjects:

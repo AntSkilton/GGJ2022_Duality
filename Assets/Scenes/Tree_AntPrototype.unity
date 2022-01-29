@@ -1362,7 +1362,7 @@ Transform:
   - {fileID: 1212804402}
   - {fileID: 414917424}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &89721246 stripped
 Transform:
@@ -1494,7 +1494,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &107318736 stripped
 Transform:
@@ -1803,7 +1803,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh172434
+  m_Name: pb_Mesh188880
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3091,7 +3091,7 @@ GameObject:
   - component: {fileID: 343381080}
   - component: {fileID: 343381079}
   m_Layer: 0
-  m_Name: Cylinder (1)
+  m_Name: lightBlocker2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4772,7 +4772,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh21422
+  m_Name: pb_Mesh189426
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5213,7 +5213,7 @@ GameObject:
   - component: {fileID: 538284437}
   - component: {fileID: 538284436}
   m_Layer: 0
-  m_Name: Cylinder (4)
+  m_Name: lightBlocker5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5818,7 +5818,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh21450
+  m_Name: pb_Mesh189486
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6737,7 +6737,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh172628
+  m_Name: pb_Mesh189074
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7270,6 +7270,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7ac43e7dfc972345b89b29c7cc6d260, type: 3}
+--- !u!1 &737472754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 737472755}
+  m_Layer: 0
+  m_Name: '- - - - - '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &737472755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737472754}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.525447, y: -15.630842, z: 8.450525}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &744052806 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 84027d43d2465b84c9f17f9f4ab2dde8, type: 3}
@@ -7495,7 +7525,7 @@ GameObject:
   - component: {fileID: 775685753}
   - component: {fileID: 775685752}
   m_Layer: 0
-  m_Name: Cylinder (2)
+  m_Name: volume3
   m_TagString: Blocker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8465,7 +8495,7 @@ GameObject:
   - component: {fileID: 809146399}
   - component: {fileID: 809146398}
   m_Layer: 0
-  m_Name: Cylinder (6)
+  m_Name: lightBlocker7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9493,7 +9523,7 @@ GameObject:
   - component: {fileID: 833403409}
   - component: {fileID: 833403408}
   m_Layer: 0
-  m_Name: Cylinder (3)
+  m_Name: volume4
   m_TagString: Blocker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10781,7 +10811,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh173246
+  m_Name: pb_Mesh189692
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11014,7 +11044,7 @@ GameObject:
   - component: {fileID: 912630162}
   - component: {fileID: 912630161}
   m_Layer: 0
-  m_Name: Cylinder (3)
+  m_Name: lightBlocker4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11423,6 +11453,36 @@ Transform:
   m_Father: {fileID: 953200870}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &924211419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 924211420}
+  m_Layer: 0
+  m_Name: '- - - - -'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &924211420
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924211419}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.525447, y: -15.630842, z: 8.450525}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &924243674 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dc899cde85560894286e4f8034cdf9d6, type: 3}
@@ -11496,7 +11556,7 @@ Transform:
   - {fileID: 1088560369}
   - {fileID: 432690046}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &936237617
 PrefabInstance:
@@ -11561,7 +11621,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh21268
+  m_Name: pb_Mesh189042
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11899,7 +11959,7 @@ Transform:
   - {fileID: 809146402}
   - {fileID: 2134544687}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &964021307 stripped
 Transform:
@@ -11990,7 +12050,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh172566
+  m_Name: pb_Mesh189012
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -12262,7 +12322,7 @@ Transform:
   - {fileID: 1266054639}
   - {fileID: 1920623202}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1001679623
 Mesh:
@@ -12270,7 +12330,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh172750
+  m_Name: pb_Mesh189196
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -12500,7 +12560,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh172708
+  m_Name: pb_Mesh189154
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -12868,7 +12928,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh21392
+  m_Name: pb_Mesh189292
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13214,7 +13274,7 @@ GameObject:
   - component: {fileID: 1065753470}
   - component: {fileID: 1065753469}
   m_Layer: 0
-  m_Name: Cylinder (2)
+  m_Name: lightBlocker3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14310,7 +14370,7 @@ GameObject:
   - component: {fileID: 1113014952}
   - component: {fileID: 1113014951}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: lightBlocker1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16290,7 +16350,7 @@ Transform:
   - {fileID: 1492423632}
   - {fileID: 1769717327}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1228166993
 PrefabInstance:
@@ -16511,7 +16571,7 @@ GameObject:
   - component: {fileID: 1266054641}
   - component: {fileID: 1266054640}
   m_Layer: 0
-  m_Name: Cylinder (6)
+  m_Name: volume7
   m_TagString: Blocker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18038,7 +18098,7 @@ Transform:
   m_LocalScale: {x: 71.020836, y: 71.020836, z: 71.020836}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!4 &1338529940 stripped
 Transform:
@@ -20047,7 +20107,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh21436
+  m_Name: pb_Mesh189450
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -20297,7 +20357,7 @@ GameObject:
   - component: {fileID: 1604204426}
   - component: {fileID: 1604204425}
   m_Layer: 0
-  m_Name: Cylinder (5)
+  m_Name: volume6
   m_TagString: Blocker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21165,7 +21225,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh172352
+  m_Name: pb_Mesh188798
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21468,7 +21528,7 @@ GameObject:
   - component: {fileID: 1642991805}
   - component: {fileID: 1642991804}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: volume1
   m_TagString: Blocker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22596,7 +22656,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh21498
+  m_Name: pb_Mesh189606
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22778,7 +22838,7 @@ GameObject:
   - component: {fileID: 1701337344}
   - component: {fileID: 1701337343}
   m_Layer: 0
-  m_Name: Cylinder (1)
+  m_Name: volume2
   m_TagString: Blocker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23994,7 +24054,7 @@ GameObject:
   - component: {fileID: 1727566949}
   - component: {fileID: 1727566948}
   m_Layer: 0
-  m_Name: Cylinder (5)
+  m_Name: lightBlocker6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24517,7 +24577,7 @@ GameObject:
   - component: {fileID: 1747055927}
   - component: {fileID: 1747055926}
   m_Layer: 0
-  m_Name: Cylinder (4)
+  m_Name: volume5
   m_TagString: Blocker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26689,7 +26749,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh173056
+  m_Name: pb_Mesh189502
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -27331,7 +27391,7 @@ GameObject:
   - component: {fileID: 1920623204}
   - component: {fileID: 1920623203}
   m_Layer: 0
-  m_Name: Cylinder (7)
+  m_Name: volume8
   m_TagString: Blocker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28209,7 +28269,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh21232
+  m_Name: pb_Mesh188986
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -29196,7 +29256,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &2099069788
 PrefabInstance:
@@ -29404,7 +29464,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh21474
+  m_Name: pb_Mesh189522
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -29637,7 +29697,7 @@ GameObject:
   - component: {fileID: 2134544684}
   - component: {fileID: 2134544683}
   m_Layer: 0
-  m_Name: Cylinder (7)
+  m_Name: lightBlocker8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
