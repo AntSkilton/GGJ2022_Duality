@@ -49,7 +49,7 @@ public class GameplayController : MonoBehaviour
             var randomBlocker = Mathf.RoundToInt(Random.Range(0, ShadowBlockerMeshes.Length));
             ShadowBlockerMeshes[randomBlocker].SetActive(!ShadowBlockerMeshes[randomBlocker].activeSelf);
             ShadowBlockerVolumes[randomBlocker].SetActive(!ShadowBlockerVolumes[randomBlocker].activeSelf);
-            Debug.Log($"Blocker {randomBlocker} toggled.");
+            //Debug.Log($"Blocker {randomBlocker} toggled.");
             
             // Cleanup
             m_shouldToggleBlocker = false;
