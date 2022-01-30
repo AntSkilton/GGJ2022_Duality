@@ -4,9 +4,20 @@ public class BlockerHandler : MonoBehaviour
 {
     public GameplayController GameplayController;
 
+    // Sloppy way to handle it but it'll do!
     private void OnTriggerStay(Collider other) {
-        if (other.CompareTag("Blocker")) {
-            GameplayController.CurrentScore += 10 * Time.deltaTime;
+        for (int volume = 0; volume < GameplayController.ShadowBlockerVolumes.Length; volume++) {
+            if (other == GameplayController.ShadowBlockerVolumes[volume].GetComponent<MeshCollider>() && 
+                !GameplayController.ShouldSeekLight) {
+                GameplayController.CurrentScore += 10 * Time.deltaTime;
+            }
+        }
+        
+        for (int volume = 0; volume < GameplayController.ShadowBlockerVolumes.Length; volume++) {
+            if (other == GameplayController.LightBlockerVolumes[volume].GetComponent<MeshCollider>() && 
+                GameplayController.ShouldSeekLight) {
+                GameplayController.CurrentScore += 10 * Time.deltaTime;
+            }
         }
     }
     

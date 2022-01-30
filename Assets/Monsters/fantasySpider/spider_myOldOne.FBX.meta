@@ -480,10 +480,15 @@ ModelImporter:
   - first:
       137: 13700000
     second: Spider01
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {fileID: 2100000, guid: 19539980bd774124593ad092a1e41f65, type: 2}
   materials:
     materialImportMode: 1
-    materialName: 0
+    materialName: 1
     materialSearch: 1
     materialLocation: 0
   animations:
