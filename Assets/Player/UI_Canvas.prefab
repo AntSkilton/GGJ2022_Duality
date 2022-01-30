@@ -158,7 +158,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Exit is locked!
+  m_text: Level Complete!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 34150fdb5c1835540b0069eaaef4c956, type: 2}
   m_sharedMaterial: {fileID: -2071832556638165353, guid: 34150fdb5c1835540b0069eaaef4c956, type: 2}
