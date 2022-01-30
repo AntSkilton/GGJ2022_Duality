@@ -27,6 +27,6 @@ public class ScoreUI : MonoBehaviour
     {
         var score = gameController.CurrentScore;
         var target = gameController.ScoreTarget;
-        textRenderer.text = $"Score: {score:0000} / {target}";
+        textRenderer.text = $"Score: {score:000} / {target}";
     }
 }
