@@ -1,916 +1,320 @@
 fileFormatVersion: 2
 guid: 9a8ce5ac0789802449472dcc98d79cbe
 ModelImporter:
-  serializedVersion: 20200
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: Bip001
-  - first:
-      1: 100002
-    second: Bip001 Footsteps
-  - first:
-      1: 100004
-    second: Bip001 Head
-  - first:
-      1: 100006
-    second: Bip001 HeadNub
-  - first:
-      1: 100008
-    second: Bip001 L Calf
-  - first:
-      1: 100010
-    second: Bip001 L Clavicle
-  - first:
-      1: 100012
-    second: Bip001 L Finger0
-  - first:
-      1: 100014
-    second: Bip001 L Finger01
-  - first:
-      1: 100016
-    second: Bip001 L Finger0Nub
-  - first:
-      1: 100018
-    second: Bip001 L Finger1
-  - first:
-      1: 100020
-    second: Bip001 L Finger11
-  - first:
-      1: 100022
-    second: Bip001 L Finger1Nub
-  - first:
-      1: 100024
-    second: Bip001 L Finger2
-  - first:
-      1: 100026
-    second: Bip001 L Finger21
-  - first:
-      1: 100028
-    second: Bip001 L Finger2Nub
-  - first:
-      1: 100030
-    second: Bip001 L Finger3
-  - first:
-      1: 100032
-    second: Bip001 L Finger31
-  - first:
-      1: 100034
-    second: Bip001 L Finger3Nub
-  - first:
-      1: 100036
-    second: Bip001 L Foot
-  - first:
-      1: 100038
-    second: Bip001 L Forearm
-  - first:
-      1: 100040
-    second: Bip001 L Hand
-  - first:
-      1: 100042
-    second: Bip001 L Thigh
-  - first:
-      1: 100044
-    second: Bip001 L Toe0
-  - first:
-      1: 100046
-    second: Bip001 L Toe0Nub
-  - first:
-      1: 100048
-    second: Bip001 L UpperArm
-  - first:
-      1: 100050
-    second: Bip001 Neck
-  - first:
-      1: 100052
-    second: Bip001 Pelvis
-  - first:
-      1: 100054
-    second: Bip001 R Calf
-  - first:
-      1: 100056
-    second: Bip001 R Clavicle
-  - first:
-      1: 100058
-    second: Bip001 R Finger0
-  - first:
-      1: 100060
-    second: Bip001 R Finger01
-  - first:
-      1: 100062
-    second: Bip001 R Finger0Nub
-  - first:
-      1: 100064
-    second: Bip001 R Finger1
-  - first:
-      1: 100066
-    second: Bip001 R Finger11
-  - first:
-      1: 100068
-    second: Bip001 R Finger1Nub
-  - first:
-      1: 100070
-    second: Bip001 R Finger2
-  - first:
-      1: 100072
-    second: Bip001 R Finger21
-  - first:
-      1: 100074
-    second: Bip001 R Finger2Nub
-  - first:
-      1: 100076
-    second: Bip001 R Finger3
-  - first:
-      1: 100078
-    second: Bip001 R Finger31
-  - first:
-      1: 100080
-    second: Bip001 R Finger3Nub
-  - first:
-      1: 100082
-    second: Bip001 R Foot
-  - first:
-      1: 100084
-    second: Bip001 R Forearm
-  - first:
-      1: 100086
-    second: Bip001 R Hand
-  - first:
-      1: 100088
-    second: Bip001 R Thigh
-  - first:
-      1: 100090
-    second: Bip001 R Toe0
-  - first:
-      1: 100092
-    second: Bip001 R Toe0Nub
-  - first:
-      1: 100094
-    second: Bip001 R UpperArm
-  - first:
-      1: 100096
-    second: Bip001 Spine
-  - first:
-      1: 100098
-    second: Bip001 Spine1
-  - first:
-      1: 100100
-    second: Bip001 Spine2
-  - first:
-      1: 100102
-    second: //RootNode
-  - first:
-      1: 100104
-    second: SimpleKidBobEyesAndEyebrows
-  - first:
-      1: 100106
-    second: SimpleKidBobHair1
-  - first:
-      1: 100108
-    second: SimpleKidBobHair2
-  - first:
-      1: 100110
-    second: SimpleKidBobHair3
-  - first:
-      1: 100112
-    second: SimpleKidBobHair4
-  - first:
-      1: 100114
-    second: SimpleKidBobHair5
-  - first:
-      1: 100116
-    second: SimpleKidBobHair6
-  - first:
-      1: 100118
-    second: SimpleKidBobHead
-  - first:
-      1: 100120
-    second: SimpleKidBobLowerBody
-  - first:
-      1: 100122
-    second: SimpleKidBobLowerBodyBoots
-  - first:
-      1: 100124
-    second: SimpleKidBobLowerBodyFeet
-  - first:
-      1: 100126
-    second: SimpleKidBobLowerBodyPants
-  - first:
-      1: 100128
-    second: SimpleKidBobLowerBodyShorts
-  - first:
-      1: 100130
-    second: SimpleKidBobMouth
-  - first:
-      1: 100132
-    second: SimpleKidBobNose
-  - first:
-      1: 100134
-    second: SimpleKidBobUpperBody
-  - first:
-      1: 100136
-    second: SimpleKidBobUpperBodyHoodie
-  - first:
-      1: 100138
-    second: SimpleKidBobUpperBodyTShirt
-  - first:
-      1: 100140
-    second: SimpleKidBobUpperBodyTshirt
-  - first:
-      1: 100142
-    second: SimpleKidBobUpperBodyTshirt2
-  - first:
-      1: 100144
-    second: SimpleKidBobLowerBodyShortsWithSocks
-  - first:
-      1: 100146
-    second: SimpleLadySusanBoots
-  - first:
-      1: 100148
-    second: SimpleKidBobGlasses1
-  - first:
-      1: 100150
-    second: SimpleKidBobGlasses2
-  - first:
-      1: 100152
-    second: SimpleKidBobGlasses3
-  - first:
-      1: 100154
-    second: SimpleKidBobGlasses4
-  - first:
-      1: 100156
-    second: SimpleKidBobGlasses5
-  - first:
-      1: 100158
-    second: SimpleKidBobGlasses6
-  - first:
-      1: 100160
-    second: SimpleKidBobHat1
-  - first:
-      1: 100162
-    second: SimpleKidBobHat2
-  - first:
-      1: 100164
-    second: SimpleKidBobHat3
-  - first:
-      1: 100166
-    second: SimpleKidBobHat4
-  - first:
-      1: 100168
-    second: SimpleKidBobHat5
-  - first:
-      1: 100170
-    second: SimpleKidBobHair7
-  - first:
-      1: 100172
-    second: SimpleKidBobHair8
-  - first:
-      1: 100174
-    second: SimpleKidBobHair9
-  - first:
-      1: 100176
-    second: SimpleKidBobSneakers
-  - first:
-      1: 100178
-    second: SimpleKidBobLowerBodyUndies
-  - first:
-      1: 100180
-    second: SimpleKidBobHair10
-  - first:
-      1: 100182
-    second: SimpleKidBobHair11
-  - first:
-      1: 100184
-    second: SimpleKidBobRubberBoots
-  - first:
-      4: 400000
-    second: Bip001
-  - first:
-      4: 400002
-    second: Bip001 Footsteps
-  - first:
-      4: 400004
-    second: Bip001 Head
-  - first:
-      4: 400006
-    second: Bip001 HeadNub
-  - first:
-      4: 400008
-    second: Bip001 L Calf
-  - first:
-      4: 400010
-    second: Bip001 L Clavicle
-  - first:
-      4: 400012
-    second: Bip001 L Finger0
-  - first:
-      4: 400014
-    second: Bip001 L Finger01
-  - first:
-      4: 400016
-    second: Bip001 L Finger0Nub
-  - first:
-      4: 400018
-    second: Bip001 L Finger1
-  - first:
-      4: 400020
-    second: Bip001 L Finger11
-  - first:
-      4: 400022
-    second: Bip001 L Finger1Nub
-  - first:
-      4: 400024
-    second: Bip001 L Finger2
-  - first:
-      4: 400026
-    second: Bip001 L Finger21
-  - first:
-      4: 400028
-    second: Bip001 L Finger2Nub
-  - first:
-      4: 400030
-    second: Bip001 L Finger3
-  - first:
-      4: 400032
-    second: Bip001 L Finger31
-  - first:
-      4: 400034
-    second: Bip001 L Finger3Nub
-  - first:
-      4: 400036
-    second: Bip001 L Foot
-  - first:
-      4: 400038
-    second: Bip001 L Forearm
-  - first:
-      4: 400040
-    second: Bip001 L Hand
-  - first:
-      4: 400042
-    second: Bip001 L Thigh
-  - first:
-      4: 400044
-    second: Bip001 L Toe0
-  - first:
-      4: 400046
-    second: Bip001 L Toe0Nub
-  - first:
-      4: 400048
-    second: Bip001 L UpperArm
-  - first:
-      4: 400050
-    second: Bip001 Neck
-  - first:
-      4: 400052
-    second: Bip001 Pelvis
-  - first:
-      4: 400054
-    second: Bip001 R Calf
-  - first:
-      4: 400056
-    second: Bip001 R Clavicle
-  - first:
-      4: 400058
-    second: Bip001 R Finger0
-  - first:
-      4: 400060
-    second: Bip001 R Finger01
-  - first:
-      4: 400062
-    second: Bip001 R Finger0Nub
-  - first:
-      4: 400064
-    second: Bip001 R Finger1
-  - first:
-      4: 400066
-    second: Bip001 R Finger11
-  - first:
-      4: 400068
-    second: Bip001 R Finger1Nub
-  - first:
-      4: 400070
-    second: Bip001 R Finger2
-  - first:
-      4: 400072
-    second: Bip001 R Finger21
-  - first:
-      4: 400074
-    second: Bip001 R Finger2Nub
-  - first:
-      4: 400076
-    second: Bip001 R Finger3
-  - first:
-      4: 400078
-    second: Bip001 R Finger31
-  - first:
-      4: 400080
-    second: Bip001 R Finger3Nub
-  - first:
-      4: 400082
-    second: Bip001 R Foot
-  - first:
-      4: 400084
-    second: Bip001 R Forearm
-  - first:
-      4: 400086
-    second: Bip001 R Hand
-  - first:
-      4: 400088
-    second: Bip001 R Thigh
-  - first:
-      4: 400090
-    second: Bip001 R Toe0
-  - first:
-      4: 400092
-    second: Bip001 R Toe0Nub
-  - first:
-      4: 400094
-    second: Bip001 R UpperArm
-  - first:
-      4: 400096
-    second: Bip001 Spine
-  - first:
-      4: 400098
-    second: Bip001 Spine1
-  - first:
-      4: 400100
-    second: Bip001 Spine2
-  - first:
-      4: 400102
-    second: //RootNode
-  - first:
-      4: 400104
-    second: SimpleKidBobEyesAndEyebrows
-  - first:
-      4: 400106
-    second: SimpleKidBobHair1
-  - first:
-      4: 400108
-    second: SimpleKidBobHair2
-  - first:
-      4: 400110
-    second: SimpleKidBobHair3
-  - first:
-      4: 400112
-    second: SimpleKidBobHair4
-  - first:
-      4: 400114
-    second: SimpleKidBobHair5
-  - first:
-      4: 400116
-    second: SimpleKidBobHair6
-  - first:
-      4: 400118
-    second: SimpleKidBobHead
-  - first:
-      4: 400120
-    second: SimpleKidBobLowerBody
-  - first:
-      4: 400122
-    second: SimpleKidBobLowerBodyBoots
-  - first:
-      4: 400124
-    second: SimpleKidBobLowerBodyFeet
-  - first:
-      4: 400126
-    second: SimpleKidBobLowerBodyPants
-  - first:
-      4: 400128
-    second: SimpleKidBobLowerBodyShorts
-  - first:
-      4: 400130
-    second: SimpleKidBobMouth
-  - first:
-      4: 400132
-    second: SimpleKidBobNose
-  - first:
-      4: 400134
-    second: SimpleKidBobUpperBody
-  - first:
-      4: 400136
-    second: SimpleKidBobUpperBodyHoodie
-  - first:
-      4: 400138
-    second: SimpleKidBobUpperBodyTShirt
-  - first:
-      4: 400140
-    second: SimpleKidBobUpperBodyTshirt
-  - first:
-      4: 400142
-    second: SimpleKidBobUpperBodyTshirt2
-  - first:
-      4: 400144
-    second: SimpleKidBobLowerBodyShortsWithSocks
-  - first:
-      4: 400146
-    second: SimpleLadySusanBoots
-  - first:
-      4: 400148
-    second: SimpleKidBobGlasses1
-  - first:
-      4: 400150
-    second: SimpleKidBobGlasses2
-  - first:
-      4: 400152
-    second: SimpleKidBobGlasses3
-  - first:
-      4: 400154
-    second: SimpleKidBobGlasses4
-  - first:
-      4: 400156
-    second: SimpleKidBobGlasses5
-  - first:
-      4: 400158
-    second: SimpleKidBobGlasses6
-  - first:
-      4: 400160
-    second: SimpleKidBobHat1
-  - first:
-      4: 400162
-    second: SimpleKidBobHat2
-  - first:
-      4: 400164
-    second: SimpleKidBobHat3
-  - first:
-      4: 400166
-    second: SimpleKidBobHat4
-  - first:
-      4: 400168
-    second: SimpleKidBobHat5
-  - first:
-      4: 400170
-    second: SimpleKidBobHair7
-  - first:
-      4: 400172
-    second: SimpleKidBobHair8
-  - first:
-      4: 400174
-    second: SimpleKidBobHair9
-  - first:
-      4: 400176
-    second: SimpleKidBobSneakers
-  - first:
-      4: 400178
-    second: SimpleKidBobLowerBodyUndies
-  - first:
-      4: 400180
-    second: SimpleKidBobHair10
-  - first:
-      4: 400182
-    second: SimpleKidBobHair11
-  - first:
-      4: 400184
-    second: SimpleKidBobRubberBoots
-  - first:
-      21: 2100000
-    second: SimpleKidBob
-  - first:
-      21: 2100002
-    second: SweetSue
-  - first:
-      21: 2100004
-    second: glass
-  - first:
-      23: 2300000
-    second: SimpleKidBobEyesAndEyebrows
-  - first:
-      23: 2300002
-    second: SimpleKidBobHair1
-  - first:
-      23: 2300004
-    second: SimpleKidBobHair2
-  - first:
-      23: 2300006
-    second: SimpleKidBobHair3
-  - first:
-      23: 2300008
-    second: SimpleKidBobHair4
-  - first:
-      23: 2300010
-    second: SimpleKidBobHair5
-  - first:
-      23: 2300012
-    second: SimpleKidBobHair6
-  - first:
-      23: 2300014
-    second: SimpleKidBobNose
-  - first:
-      23: 2300016
-    second: SimpleKidBobGlasses1
-  - first:
-      23: 2300018
-    second: SimpleKidBobGlasses2
-  - first:
-      23: 2300020
-    second: SimpleKidBobGlasses3
-  - first:
-      23: 2300022
-    second: SimpleKidBobGlasses4
-  - first:
-      23: 2300024
-    second: SimpleKidBobGlasses5
-  - first:
-      23: 2300026
-    second: SimpleKidBobGlasses6
-  - first:
-      23: 2300028
-    second: SimpleKidBobHat1
-  - first:
-      23: 2300030
-    second: SimpleKidBobHat2
-  - first:
-      23: 2300032
-    second: SimpleKidBobHat3
-  - first:
-      23: 2300034
-    second: SimpleKidBobHat4
-  - first:
-      23: 2300036
-    second: SimpleKidBobHat5
-  - first:
-      23: 2300038
-    second: SimpleKidBobHair7
-  - first:
-      23: 2300040
-    second: SimpleKidBobHair8
-  - first:
-      23: 2300042
-    second: SimpleKidBobHair9
-  - first:
-      23: 2300044
-    second: SimpleKidBobHair10
-  - first:
-      23: 2300046
-    second: SimpleKidBobHair11
-  - first:
-      33: 3300000
-    second: SimpleKidBobEyesAndEyebrows
-  - first:
-      33: 3300002
-    second: SimpleKidBobHair1
-  - first:
-      33: 3300004
-    second: SimpleKidBobHair2
-  - first:
-      33: 3300006
-    second: SimpleKidBobHair3
-  - first:
-      33: 3300008
-    second: SimpleKidBobHair4
-  - first:
-      33: 3300010
-    second: SimpleKidBobHair5
-  - first:
-      33: 3300012
-    second: SimpleKidBobHair6
-  - first:
-      33: 3300014
-    second: SimpleKidBobNose
-  - first:
-      33: 3300016
-    second: SimpleKidBobGlasses1
-  - first:
-      33: 3300018
-    second: SimpleKidBobGlasses2
-  - first:
-      33: 3300020
-    second: SimpleKidBobGlasses3
-  - first:
-      33: 3300022
-    second: SimpleKidBobGlasses4
-  - first:
-      33: 3300024
-    second: SimpleKidBobGlasses5
-  - first:
-      33: 3300026
-    second: SimpleKidBobGlasses6
-  - first:
-      33: 3300028
-    second: SimpleKidBobHat1
-  - first:
-      33: 3300030
-    second: SimpleKidBobHat2
-  - first:
-      33: 3300032
-    second: SimpleKidBobHat3
-  - first:
-      33: 3300034
-    second: SimpleKidBobHat4
-  - first:
-      33: 3300036
-    second: SimpleKidBobHat5
-  - first:
-      33: 3300038
-    second: SimpleKidBobHair7
-  - first:
-      33: 3300040
-    second: SimpleKidBobHair8
-  - first:
-      33: 3300042
-    second: SimpleKidBobHair9
-  - first:
-      33: 3300044
-    second: SimpleKidBobHair10
-  - first:
-      33: 3300046
-    second: SimpleKidBobHair11
-  - first:
-      43: 4300000
-    second: SimpleKidBobLowerBody
-  - first:
-      43: 4300002
-    second: SimpleKidBobMouth
-  - first:
-      43: 4300004
-    second: SimpleKidBobNose
-  - first:
-      43: 4300006
-    second: SimpleKidBobHair1
-  - first:
-      43: 4300008
-    second: SimpleKidBobHair2
-  - first:
-      43: 4300010
-    second: SimpleKidBobHair3
-  - first:
-      43: 4300012
-    second: SimpleKidBobHair4
-  - first:
-      43: 4300014
-    second: SimpleKidBobHair5
-  - first:
-      43: 4300016
-    second: SimpleKidBobHair6
-  - first:
-      43: 4300018
-    second: SimpleKidBobEyesAndEyebrows
-  - first:
-      43: 4300020
-    second: SimpleKidBobHead
-  - first:
-      43: 4300022
-    second: SimpleKidBobUpperBodyTShirt
-  - first:
-      43: 4300024
-    second: SimpleKidBobUpperBody
-  - first:
-      43: 4300026
-    second: SimpleKidBobUpperBodyHoodie
-  - first:
-      43: 4300028
-    second: SimpleKidBobLowerBodyPants
-  - first:
-      43: 4300030
-    second: SimpleKidBobLowerBodyShorts
-  - first:
-      43: 4300032
-    second: SimpleKidBobLowerBodyBoots
-  - first:
-      43: 4300034
-    second: SimpleKidBobLowerBodyFeet
-  - first:
-      43: 4300036
-    second: SimpleKidBobUpperBodyTshirt
-  - first:
-      43: 4300038
-    second: SimpleKidBobUpperBodyTshirt2
-  - first:
-      43: 4300040
-    second: SimpleKidBobLowerBodyShortsWithSocks
-  - first:
-      43: 4300042
-    second: SimpleLadySusanBoots
-  - first:
-      43: 4300044
-    second: SimpleKidBobGlasses4
-  - first:
-      43: 4300046
-    second: SimpleKidBobGlasses3
-  - first:
-      43: 4300048
-    second: SimpleKidBobGlasses2
-  - first:
-      43: 4300050
-    second: SimpleKidBobGlasses1
-  - first:
-      43: 4300052
-    second: SimpleKidBobGlasses6
-  - first:
-      43: 4300054
-    second: SimpleKidBobGlasses5
-  - first:
-      43: 4300056
-    second: SimpleKidBobHat3
-  - first:
-      43: 4300058
-    second: SimpleKidBobHat2
-  - first:
-      43: 4300060
-    second: SimpleKidBobHat1
-  - first:
-      43: 4300062
-    second: SimpleKidBobHat4
-  - first:
-      43: 4300064
-    second: SimpleKidBobHat5
-  - first:
-      43: 4300066
-    second: SimpleKidBobHair7
-  - first:
-      43: 4300068
-    second: SimpleKidBobHair8
-  - first:
-      43: 4300070
-    second: SimpleKidBobHair9
-  - first:
-      43: 4300072
-    second: SimpleKidBobSneakers
-  - first:
-      43: 4300074
-    second: SimpleKidBobLowerBodyUndies
-  - first:
-      43: 4300076
-    second: SimpleKidBobHair10
-  - first:
-      43: 4300078
-    second: SimpleKidBobHair11
-  - first:
-      43: 4300080
-    second: SimpleKidBobRubberBoots
-  - first:
-      74: 7400000
-    second: Take 001
-  - first:
-      95: 9500000
-    second: //RootNode
-  - first:
-      137: 13700000
-    second: SimpleKidBobHead
-  - first:
-      137: 13700002
-    second: SimpleKidBobLowerBody
-  - first:
-      137: 13700004
-    second: SimpleKidBobLowerBodyBoots
-  - first:
-      137: 13700006
-    second: SimpleKidBobLowerBodyFeet
-  - first:
-      137: 13700008
-    second: SimpleKidBobLowerBodyPants
-  - first:
-      137: 13700010
-    second: SimpleKidBobLowerBodyShorts
-  - first:
-      137: 13700012
-    second: SimpleKidBobMouth
-  - first:
-      137: 13700014
-    second: SimpleKidBobUpperBody
-  - first:
-      137: 13700016
-    second: SimpleKidBobUpperBodyHoodie
-  - first:
-      137: 13700018
-    second: SimpleKidBobUpperBodyTShirt
-  - first:
-      137: 13700020
-    second: SimpleKidBobUpperBodyTshirt
-  - first:
-      137: 13700022
-    second: SimpleKidBobUpperBodyTshirt2
-  - first:
-      137: 13700024
-    second: SimpleKidBobLowerBodyShortsWithSocks
-  - first:
-      137: 13700026
-    second: SimpleLadySusanBoots
-  - first:
-      137: 13700028
-    second: SimpleKidBobSneakers
-  - first:
-      137: 13700030
-    second: SimpleKidBobLowerBodyUndies
-  - first:
-      137: 13700032
-    second: SimpleKidBobEyesAndEyebrows
-  - first:
-      137: 13700034
-    second: SimpleKidBobRubberBoots
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bip001
+    100002: Bip001 Footsteps
+    100004: Bip001 Head
+    100006: Bip001 HeadNub
+    100008: Bip001 L Calf
+    100010: Bip001 L Clavicle
+    100012: Bip001 L Finger0
+    100014: Bip001 L Finger01
+    100016: Bip001 L Finger0Nub
+    100018: Bip001 L Finger1
+    100020: Bip001 L Finger11
+    100022: Bip001 L Finger1Nub
+    100024: Bip001 L Finger2
+    100026: Bip001 L Finger21
+    100028: Bip001 L Finger2Nub
+    100030: Bip001 L Finger3
+    100032: Bip001 L Finger31
+    100034: Bip001 L Finger3Nub
+    100036: Bip001 L Foot
+    100038: Bip001 L Forearm
+    100040: Bip001 L Hand
+    100042: Bip001 L Thigh
+    100044: Bip001 L Toe0
+    100046: Bip001 L Toe0Nub
+    100048: Bip001 L UpperArm
+    100050: Bip001 Neck
+    100052: Bip001 Pelvis
+    100054: Bip001 R Calf
+    100056: Bip001 R Clavicle
+    100058: Bip001 R Finger0
+    100060: Bip001 R Finger01
+    100062: Bip001 R Finger0Nub
+    100064: Bip001 R Finger1
+    100066: Bip001 R Finger11
+    100068: Bip001 R Finger1Nub
+    100070: Bip001 R Finger2
+    100072: Bip001 R Finger21
+    100074: Bip001 R Finger2Nub
+    100076: Bip001 R Finger3
+    100078: Bip001 R Finger31
+    100080: Bip001 R Finger3Nub
+    100082: Bip001 R Foot
+    100084: Bip001 R Forearm
+    100086: Bip001 R Hand
+    100088: Bip001 R Thigh
+    100090: Bip001 R Toe0
+    100092: Bip001 R Toe0Nub
+    100094: Bip001 R UpperArm
+    100096: Bip001 Spine
+    100098: Bip001 Spine1
+    100100: Bip001 Spine2
+    100102: //RootNode
+    100104: SimpleKidBobEyesAndEyebrows
+    100106: SimpleKidBobHair1
+    100108: SimpleKidBobHair2
+    100110: SimpleKidBobHair3
+    100112: SimpleKidBobHair4
+    100114: SimpleKidBobHair5
+    100116: SimpleKidBobHair6
+    100118: SimpleKidBobHead
+    100120: SimpleKidBobLowerBody
+    100122: SimpleKidBobLowerBodyBoots
+    100124: SimpleKidBobLowerBodyFeet
+    100126: SimpleKidBobLowerBodyPants
+    100128: SimpleKidBobLowerBodyShorts
+    100130: SimpleKidBobMouth
+    100132: SimpleKidBobNose
+    100134: SimpleKidBobUpperBody
+    100136: SimpleKidBobUpperBodyHoodie
+    100138: SimpleKidBobUpperBodyTShirt
+    100140: SimpleKidBobUpperBodyTshirt
+    100142: SimpleKidBobUpperBodyTshirt2
+    100144: SimpleKidBobLowerBodyShortsWithSocks
+    100146: SimpleLadySusanBoots
+    100148: SimpleKidBobGlasses1
+    100150: SimpleKidBobGlasses2
+    100152: SimpleKidBobGlasses3
+    100154: SimpleKidBobGlasses4
+    100156: SimpleKidBobGlasses5
+    100158: SimpleKidBobGlasses6
+    100160: SimpleKidBobHat1
+    100162: SimpleKidBobHat2
+    100164: SimpleKidBobHat3
+    100166: SimpleKidBobHat4
+    100168: SimpleKidBobHat5
+    100170: SimpleKidBobHair7
+    100172: SimpleKidBobHair8
+    100174: SimpleKidBobHair9
+    100176: SimpleKidBobSneakers
+    100178: SimpleKidBobLowerBodyUndies
+    100180: SimpleKidBobHair10
+    100182: SimpleKidBobHair11
+    100184: SimpleKidBobRubberBoots
+    400000: Bip001
+    400002: Bip001 Footsteps
+    400004: Bip001 Head
+    400006: Bip001 HeadNub
+    400008: Bip001 L Calf
+    400010: Bip001 L Clavicle
+    400012: Bip001 L Finger0
+    400014: Bip001 L Finger01
+    400016: Bip001 L Finger0Nub
+    400018: Bip001 L Finger1
+    400020: Bip001 L Finger11
+    400022: Bip001 L Finger1Nub
+    400024: Bip001 L Finger2
+    400026: Bip001 L Finger21
+    400028: Bip001 L Finger2Nub
+    400030: Bip001 L Finger3
+    400032: Bip001 L Finger31
+    400034: Bip001 L Finger3Nub
+    400036: Bip001 L Foot
+    400038: Bip001 L Forearm
+    400040: Bip001 L Hand
+    400042: Bip001 L Thigh
+    400044: Bip001 L Toe0
+    400046: Bip001 L Toe0Nub
+    400048: Bip001 L UpperArm
+    400050: Bip001 Neck
+    400052: Bip001 Pelvis
+    400054: Bip001 R Calf
+    400056: Bip001 R Clavicle
+    400058: Bip001 R Finger0
+    400060: Bip001 R Finger01
+    400062: Bip001 R Finger0Nub
+    400064: Bip001 R Finger1
+    400066: Bip001 R Finger11
+    400068: Bip001 R Finger1Nub
+    400070: Bip001 R Finger2
+    400072: Bip001 R Finger21
+    400074: Bip001 R Finger2Nub
+    400076: Bip001 R Finger3
+    400078: Bip001 R Finger31
+    400080: Bip001 R Finger3Nub
+    400082: Bip001 R Foot
+    400084: Bip001 R Forearm
+    400086: Bip001 R Hand
+    400088: Bip001 R Thigh
+    400090: Bip001 R Toe0
+    400092: Bip001 R Toe0Nub
+    400094: Bip001 R UpperArm
+    400096: Bip001 Spine
+    400098: Bip001 Spine1
+    400100: Bip001 Spine2
+    400102: //RootNode
+    400104: SimpleKidBobEyesAndEyebrows
+    400106: SimpleKidBobHair1
+    400108: SimpleKidBobHair2
+    400110: SimpleKidBobHair3
+    400112: SimpleKidBobHair4
+    400114: SimpleKidBobHair5
+    400116: SimpleKidBobHair6
+    400118: SimpleKidBobHead
+    400120: SimpleKidBobLowerBody
+    400122: SimpleKidBobLowerBodyBoots
+    400124: SimpleKidBobLowerBodyFeet
+    400126: SimpleKidBobLowerBodyPants
+    400128: SimpleKidBobLowerBodyShorts
+    400130: SimpleKidBobMouth
+    400132: SimpleKidBobNose
+    400134: SimpleKidBobUpperBody
+    400136: SimpleKidBobUpperBodyHoodie
+    400138: SimpleKidBobUpperBodyTShirt
+    400140: SimpleKidBobUpperBodyTshirt
+    400142: SimpleKidBobUpperBodyTshirt2
+    400144: SimpleKidBobLowerBodyShortsWithSocks
+    400146: SimpleLadySusanBoots
+    400148: SimpleKidBobGlasses1
+    400150: SimpleKidBobGlasses2
+    400152: SimpleKidBobGlasses3
+    400154: SimpleKidBobGlasses4
+    400156: SimpleKidBobGlasses5
+    400158: SimpleKidBobGlasses6
+    400160: SimpleKidBobHat1
+    400162: SimpleKidBobHat2
+    400164: SimpleKidBobHat3
+    400166: SimpleKidBobHat4
+    400168: SimpleKidBobHat5
+    400170: SimpleKidBobHair7
+    400172: SimpleKidBobHair8
+    400174: SimpleKidBobHair9
+    400176: SimpleKidBobSneakers
+    400178: SimpleKidBobLowerBodyUndies
+    400180: SimpleKidBobHair10
+    400182: SimpleKidBobHair11
+    400184: SimpleKidBobRubberBoots
+    2100000: SimpleKidBob
+    2100002: SweetSue
+    2100004: glass
+    2300000: SimpleKidBobEyesAndEyebrows
+    2300002: SimpleKidBobHair1
+    2300004: SimpleKidBobHair2
+    2300006: SimpleKidBobHair3
+    2300008: SimpleKidBobHair4
+    2300010: SimpleKidBobHair5
+    2300012: SimpleKidBobHair6
+    2300014: SimpleKidBobNose
+    2300016: SimpleKidBobGlasses1
+    2300018: SimpleKidBobGlasses2
+    2300020: SimpleKidBobGlasses3
+    2300022: SimpleKidBobGlasses4
+    2300024: SimpleKidBobGlasses5
+    2300026: SimpleKidBobGlasses6
+    2300028: SimpleKidBobHat1
+    2300030: SimpleKidBobHat2
+    2300032: SimpleKidBobHat3
+    2300034: SimpleKidBobHat4
+    2300036: SimpleKidBobHat5
+    2300038: SimpleKidBobHair7
+    2300040: SimpleKidBobHair8
+    2300042: SimpleKidBobHair9
+    2300044: SimpleKidBobHair10
+    2300046: SimpleKidBobHair11
+    3300000: SimpleKidBobEyesAndEyebrows
+    3300002: SimpleKidBobHair1
+    3300004: SimpleKidBobHair2
+    3300006: SimpleKidBobHair3
+    3300008: SimpleKidBobHair4
+    3300010: SimpleKidBobHair5
+    3300012: SimpleKidBobHair6
+    3300014: SimpleKidBobNose
+    3300016: SimpleKidBobGlasses1
+    3300018: SimpleKidBobGlasses2
+    3300020: SimpleKidBobGlasses3
+    3300022: SimpleKidBobGlasses4
+    3300024: SimpleKidBobGlasses5
+    3300026: SimpleKidBobGlasses6
+    3300028: SimpleKidBobHat1
+    3300030: SimpleKidBobHat2
+    3300032: SimpleKidBobHat3
+    3300034: SimpleKidBobHat4
+    3300036: SimpleKidBobHat5
+    3300038: SimpleKidBobHair7
+    3300040: SimpleKidBobHair8
+    3300042: SimpleKidBobHair9
+    3300044: SimpleKidBobHair10
+    3300046: SimpleKidBobHair11
+    4300000: SimpleKidBobLowerBody
+    4300002: SimpleKidBobMouth
+    4300004: SimpleKidBobNose
+    4300006: SimpleKidBobHair1
+    4300008: SimpleKidBobHair2
+    4300010: SimpleKidBobHair3
+    4300012: SimpleKidBobHair4
+    4300014: SimpleKidBobHair5
+    4300016: SimpleKidBobHair6
+    4300018: SimpleKidBobEyesAndEyebrows
+    4300020: SimpleKidBobHead
+    4300022: SimpleKidBobUpperBodyTShirt
+    4300024: SimpleKidBobUpperBody
+    4300026: SimpleKidBobUpperBodyHoodie
+    4300028: SimpleKidBobLowerBodyPants
+    4300030: SimpleKidBobLowerBodyShorts
+    4300032: SimpleKidBobLowerBodyBoots
+    4300034: SimpleKidBobLowerBodyFeet
+    4300036: SimpleKidBobUpperBodyTshirt
+    4300038: SimpleKidBobUpperBodyTshirt2
+    4300040: SimpleKidBobLowerBodyShortsWithSocks
+    4300042: SimpleLadySusanBoots
+    4300044: SimpleKidBobGlasses4
+    4300046: SimpleKidBobGlasses3
+    4300048: SimpleKidBobGlasses2
+    4300050: SimpleKidBobGlasses1
+    4300052: SimpleKidBobGlasses6
+    4300054: SimpleKidBobGlasses5
+    4300056: SimpleKidBobHat3
+    4300058: SimpleKidBobHat2
+    4300060: SimpleKidBobHat1
+    4300062: SimpleKidBobHat4
+    4300064: SimpleKidBobHat5
+    4300066: SimpleKidBobHair7
+    4300068: SimpleKidBobHair8
+    4300070: SimpleKidBobHair9
+    4300072: SimpleKidBobSneakers
+    4300074: SimpleKidBobLowerBodyUndies
+    4300076: SimpleKidBobHair10
+    4300078: SimpleKidBobHair11
+    4300080: SimpleKidBobRubberBoots
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: SimpleKidBobHead
+    13700002: SimpleKidBobLowerBody
+    13700004: SimpleKidBobLowerBodyBoots
+    13700006: SimpleKidBobLowerBodyFeet
+    13700008: SimpleKidBobLowerBodyPants
+    13700010: SimpleKidBobLowerBodyShorts
+    13700012: SimpleKidBobMouth
+    13700014: SimpleKidBobUpperBody
+    13700016: SimpleKidBobUpperBodyHoodie
+    13700018: SimpleKidBobUpperBodyTShirt
+    13700020: SimpleKidBobUpperBodyTshirt
+    13700022: SimpleKidBobUpperBodyTshirt2
+    13700024: SimpleKidBobLowerBodyShortsWithSocks
+    13700026: SimpleLadySusanBoots
+    13700028: SimpleKidBobSneakers
+    13700030: SimpleKidBobLowerBodyUndies
+    13700032: SimpleKidBobEyesAndEyebrows
+    13700034: SimpleKidBobRubberBoots
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: SimpleKidBob
-    second: {fileID: 2100000, guid: 1cc617c1d9c92314d920e779b1ea9b7e, type: 2}
+    second: {fileID: 2100000, guid: 7d3c3f142c7402e4eb00ba819ca54399, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: glass
     second: {fileID: 2100000, guid: 2dc44b716f7aa9245bec67d1d9be2f96, type: 2}
   materials:
-    materialImportMode: 1
-    materialName: 1
+    importMaterials: 1
+    materialName: 0
     materialSearch: 1
     materialLocation: 1
   animations:
@@ -926,7 +330,6 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -941,31 +344,21 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    bakeAxisConversion: 0
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
@@ -973,13 +366,10 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human:
     - boneName: Bip001 Pelvis
       humanName: Hips
@@ -1643,17 +1033,14 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 1
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 1
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
