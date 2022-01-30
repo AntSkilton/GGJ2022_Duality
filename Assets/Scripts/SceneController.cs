@@ -8,6 +8,7 @@ public class SceneController : MonoBehaviour
     void Start()
     {
         m_Level1.onClick.AddListener(delegate { LoadLevel(m_Level1.name); });
+        m_Level2.onClick.AddListener(delegate { LoadLevel(m_Level2.name); });
         //m_quit.onClick.AddListener(() => ButtonClicked(42));
         m_quit.onClick.AddListener(ApplicationQuit);
     }

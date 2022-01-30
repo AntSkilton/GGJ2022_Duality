@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using TMPro;
 
-public class TimeUI : MonoBehaviour
+public class ObjectiveUI : MonoBehaviour
 {
     private TextMeshProUGUI textRenderer;
     private GameplayController gameController;
@@ -22,10 +22,9 @@ public class TimeUI : MonoBehaviour
 
         gameController = controllerObj.GetComponent<GameplayController>();
     }
-    
+
     void Update()
     {
-        var timeLeft = gameController.CurrentTime;
-        textRenderer.text = $"{timeLeft:00.0}";
+        textRenderer.text = gameController.ShouldSeekLight ? "Stay in the light!" : "Stay in the shadows!";
     }
 }
