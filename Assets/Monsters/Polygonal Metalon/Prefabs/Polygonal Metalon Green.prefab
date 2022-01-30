@@ -1268,12 +1268,16 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2dda749502f8f6b41abff74e3ecc39e7, type: 3}
   - {fileID: 8300000, guid: 1d89b1662a4fb3749a897ab0240e060c, type: 3}
   - {fileID: 8300000, guid: b2fbf14c5eba8da438a51e77d94fde30, type: 3}
+  bugIdle:
+  - {fileID: 8300000, guid: 1faf4b8f99aa47148a6348f83050001a, type: 3}
+  - {fileID: 8300000, guid: 6c6657b2967b6d547af0feed45066ec2, type: 3}
   source1: {fileID: 3699513695167606634}
   source2: {fileID: 2119545204181438094}
   source3: {fileID: 8812554896145907567}
   usedAudioSource1: 0
   timer: 0
   timerMax: 0.3
+  pitchRandomiser: 0
   pitchmin: -0.125
   pitchMax: 0.125
 --- !u!82 &3699513695167606634
