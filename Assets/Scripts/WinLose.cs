@@ -33,7 +33,7 @@ public class WinLose : MonoBehaviour
         playerInput = playerObj.GetComponent<PlayerInput>();
     }
 
-    private static string LAST_LEVEL = "Level2";
+    private static string LAST_LEVEL = "Level3";
 
     void Update()
     {

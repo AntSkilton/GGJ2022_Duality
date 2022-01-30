@@ -1194,8 +1194,8 @@ MonoBehaviour:
   moving: 0
   waiting: 0
   running: 0
-  walkSpeed: 3.5
-  runSpeed: 5
+  walkSpeed: 5
+  runSpeed: 8
   targetPosition: {x: 0, y: 0, z: 0}
   maxRange: 20
   minWaitTime: 2
@@ -1746,7 +1746,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1845593574226382}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0, z: 0.000000016396491}
+  m_LocalPosition: {x: -36.1, y: 0, z: 0.000000016396491}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4215789226532830}
