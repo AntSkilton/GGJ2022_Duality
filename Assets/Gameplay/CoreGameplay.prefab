@@ -2851,7 +2851,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2235869069243741454}
   - component: {fileID: 2235869069243741453}
-  - component: {fileID: 1982819099762609046}
   m_Layer: 0
   m_Name: gameplayController
   m_TagString: GameController
@@ -2912,26 +2911,11 @@ MonoBehaviour:
   - {fileID: 2235869070324782518}
   - {fileID: 2235869070421715701}
   - {fileID: 2235869069607052523}
-  ScoreTarget: 800
+  ScoreTarget: 100
   LevelTime: 60
   CurrentTime: 0
-  GameDifficulty: 4
+  GameDifficulty: 5
   ShouldSeekLight: 1
---- !u!114 &1982819099762609046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2235869069243741452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbf76976d6e177f458b4944bf58d6d04, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scenes:
-  - Corridor
-  - Tree_AntPrototype
 --- !u!1 &2235869069293305804
 GameObject:
   m_ObjectHideFlags: 0
@@ -17301,6 +17285,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6084864614264790406}
+  - component: {fileID: 372098216}
   m_Layer: 0
   m_Name: CoreGameplay
   m_TagString: Untagged
@@ -17328,6 +17313,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &372098216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2841847055331662821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf76976d6e177f458b4944bf58d6d04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenes:
+  - Frontend
+  - Level1
+  - Level2
 --- !u!1 &3524223190070372833
 GameObject:
   m_ObjectHideFlags: 0

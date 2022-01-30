@@ -19,7 +19,6 @@ public class GameplayController : MonoBehaviour
     [HideInInspector] public bool ShouldSeekLight = true;
 
     public float CurrentScore { get; set; }
-    //private bool m_canCountdown = true;
     
     // Timers
     private bool m_shouldToggleBlocker;
