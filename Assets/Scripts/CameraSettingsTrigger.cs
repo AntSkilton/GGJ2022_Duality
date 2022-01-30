@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Collider))]
 public class CameraSettingsTrigger : MonoBehaviour
 {
-    private Camera m_camera;
+    private Camera camera;
     private CinemachineVirtualCamera virtualCamera;
     private CinemachineFramingTransposer framingComposer;
 
@@ -20,7 +20,7 @@ public class CameraSettingsTrigger : MonoBehaviour
     void Start()
     {
         var cameraObject = GameObject.FindGameObjectWithTag("MainCamera");
-        m_camera = cameraObject.GetComponent<Camera>();
+        camera = cameraObject.GetComponent<Camera>();
 
         var virtualCameraObject = GameObject.FindGameObjectWithTag("PlayerFollowCamera");
         virtualCamera = virtualCameraObject.GetComponent<CinemachineVirtualCamera>();
