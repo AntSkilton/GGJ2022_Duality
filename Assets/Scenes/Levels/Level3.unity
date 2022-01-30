@@ -3378,22 +3378,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1420716515, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
-      propertyPath: runSpeed
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1420716515, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
-      propertyPath: walkSpeed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1420716515, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
-      propertyPath: maxWaitTime
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1420716515, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
-      propertyPath: minWaitTime
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
       propertyPath: m_Name
       value: Polygonal Metalon Green (4)
@@ -3401,18 +3385,6 @@ PrefabInstance:
     - target: {fileID: 4215789226532830, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
       propertyPath: m_RootOrder
       value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 4215789226532830, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4215789226532830, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4215789226532830, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4215789226532830, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3453,10 +3425,6 @@ PrefabInstance:
     - target: {fileID: 4215789226532830, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4900848959046628, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -36.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
