@@ -7740,10 +7740,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Polygonal Metalon Green (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4215789226532830, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
       propertyPath: m_RootOrder
       value: 13

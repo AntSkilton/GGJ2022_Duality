@@ -19,7 +19,9 @@ public class GameplayController : MonoBehaviour
     [HideInInspector] public bool ShouldSeekLight = true;
 
     public float CurrentScore { get; set; }
-    
+    public bool IsInShadow { get; set; }
+    public bool IsInScoringZone { get; set; }
+
     // Timers
     private bool m_shouldToggleBlocker;
     private int m_secsPerBlockerInterval;

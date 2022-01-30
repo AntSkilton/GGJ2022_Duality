@@ -5,22 +5,36 @@ public class BlockerHandler : MonoBehaviour
     public GameplayController GameplayController;
 
     // Sloppy way to handle it but it'll do!
-    private void OnTriggerStay(Collider other) {
-        for (int volume = 0; volume < GameplayController.ShadowBlockerVolumes.Length; volume++) {
-            if (other == GameplayController.ShadowBlockerVolumes[volume].GetComponent<MeshCollider>() && 
-                !GameplayController.ShouldSeekLight) {
-                GameplayController.CurrentScore += 10 * Time.deltaTime;
+    private void OnTriggerStay(Collider other)
+    {
+        GameplayController.IsInScoringZone = false;
+        for (int volume = 0; volume < GameplayController.ShadowBlockerVolumes.Length; volume++)
+        {
+            if (other == GameplayController.ShadowBlockerVolumes[volume].GetComponent<MeshCollider>())
+            {
+                GameplayController.IsInShadow = true;
+                if (!GameplayController.ShouldSeekLight)
+                {
+                    GameplayController.IsInScoringZone = true;
+                    GameplayController.CurrentScore += 10 * Time.deltaTime;
+                }
             }
         }
-        
-        for (int volume = 0; volume < GameplayController.ShadowBlockerVolumes.Length; volume++) {
-            if (other == GameplayController.LightBlockerVolumes[volume].GetComponent<MeshCollider>() && 
-                GameplayController.ShouldSeekLight) {
-                GameplayController.CurrentScore += 10 * Time.deltaTime;
+
+        for (int volume = 0; volume < GameplayController.ShadowBlockerVolumes.Length; volume++)
+        {
+            if (other == GameplayController.LightBlockerVolumes[volume].GetComponent<MeshCollider>())
+            {
+                GameplayController.IsInShadow = false;
+                if (GameplayController.ShouldSeekLight)
+                {
+                    GameplayController.IsInScoringZone = true;
+                    GameplayController.CurrentScore += 10 * Time.deltaTime;
+                }
             }
         }
     }
-    
+
     // This is a good example for using layers - could use this instead of Unity's event function?
     /*bool m_Started;
     public LayerMask LayerMask;
