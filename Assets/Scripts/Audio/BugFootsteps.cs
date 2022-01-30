@@ -11,18 +11,15 @@ public class BugFootsteps : MonoBehaviour
     private AudioClip[] bugSteps = new AudioClip[6];
 
     [SerializeField]
-    private AudioClip[] idles = new AudioClip[2];
-
-    [SerializeField]
     private AudioSource source1, source2, source3;
 
     [SerializeField]
     bool usedAudioSource1 = false;
 
-    public float timer, timerMax, pitchRandomiser = 1;
+    public float timer, timerMax;
 
     //sets the minimum and max pitch adjustment when playing footsteps. careful tho it does affect audio quality quite drastically (might be better with higher sample rates)
-    public float pitchmin = -0.05f, pitchMax = 0.05f;
+    public float pitchmin = -0.125f, pitchMax = 0.125f;
 
     private int randomNum = 0, previousStep = -1;
 
@@ -56,7 +53,7 @@ public class BugFootsteps : MonoBehaviour
     {
         if (roamScript.moving)
         {
-            source3.Stop();
+
 
             if (timer >= timerMax)
             {
@@ -68,7 +65,7 @@ public class BugFootsteps : MonoBehaviour
                     randomNum = Random.Range(0, bugSteps.Length);
                 }
 
-                pitchRandomiser = 1;
+                float pitchRandomiser = 1;
                 pitchRandomiser += Random.Range(pitchmin, pitchMax);
 
 
@@ -104,14 +101,6 @@ public class BugFootsteps : MonoBehaviour
         {
             //ensures footstep plays upon input
             timer = timerMax - 0.01f;
-
-            if (!source3.isPlaying)
-            {
-                source3.pitch = pitchRandomiser;
-                randomNum = Random.Range(0,idles.Length);
-                source3.clip = idles[randomNum];
-                source3.Play();
-            }
         }
     }    
 }
