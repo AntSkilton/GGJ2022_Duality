@@ -22,8 +22,7 @@ public class TimeUI : MonoBehaviour
 
         gameController = controllerObj.GetComponent<GameplayController>();
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         var timeLeft = gameController.CurrentTime;

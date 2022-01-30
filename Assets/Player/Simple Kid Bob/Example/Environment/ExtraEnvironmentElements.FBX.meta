@@ -1,97 +1,261 @@
 fileFormatVersion: 2
 guid: b8ee5b570f09674429d5b3890048f281
-timeCreated: 1542401060
-licenseType: Store
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: Bottle
-    100002: Box002
-    100004: Box003
-    100006: Box004
-    100008: Crow
-    100010: Crow2
-    100012: Cylinder001
-    100014: Cylinder002
-    100016: Cylinder005
-    100018: Cylinder012
-    100020: //RootNode
-    100022: Hobo
-    100024: PaperBoat
-    100026: Pug
-    100028: TreeBranch
-    400000: Bottle
-    400002: Box002
-    400004: Box003
-    400006: Box004
-    400008: Crow
-    400010: Crow2
-    400012: Cylinder001
-    400014: Cylinder002
-    400016: Cylinder005
-    400018: Cylinder012
-    400020: //RootNode
-    400022: Hobo
-    400024: PaperBoat
-    400026: Pug
-    400028: TreeBranch
-    2100000: Trees
-    2100002: PaperBoat
-    2100004: Crow
-    2100006: CrowEyes
-    2100008: BottleLiquid
-    2100010: Bottle
-    2100012: Beard
-    2100014: 01 - Default
-    2100016: Hair
-    2100018: Beard2
-    2100020: 'Material #535'
-    2100022: 'Material #570'
-    2100024: matt
-    2100026: Eyelid
-    2100028: eyes
-    2100030: nose
-    2100032: 'Material #687'
-    2100034: piss
-    2100036: SimplePug
-    2300000: Box002
-    2300002: Box003
-    2300004: Box004
-    2300006: Cylinder001
-    2300008: Cylinder002
-    2300010: Cylinder012
-    2300012: PaperBoat
-    2300014: TreeBranch
-    3300000: Box002
-    3300002: Box003
-    3300004: Box004
-    3300006: Cylinder001
-    3300008: Cylinder002
-    3300010: Cylinder012
-    3300012: PaperBoat
-    3300014: TreeBranch
-    4300000: TreeBranch
-    4300002: PaperBoat
-    4300004: Crow
-    4300006: Cylinder002
-    4300008: Cylinder001
-    4300010: Hobo
-    4300012: Crow2
-    4300014: Box004
-    4300016: Box003
-    4300018: Cylinder012
-    4300020: Pug
-    4300022: Box002
-    7400000: Take 001
-    9500000: //RootNode
-    13700000: Crow
-    13700002: Crow2
-    13700004: Hobo
-    13700006: Pug
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bottle
+  - first:
+      1: 100002
+    second: Box002
+  - first:
+      1: 100004
+    second: Box003
+  - first:
+      1: 100006
+    second: Box004
+  - first:
+      1: 100008
+    second: Crow
+  - first:
+      1: 100010
+    second: Crow2
+  - first:
+      1: 100012
+    second: Cylinder001
+  - first:
+      1: 100014
+    second: Cylinder002
+  - first:
+      1: 100016
+    second: Cylinder005
+  - first:
+      1: 100018
+    second: Cylinder012
+  - first:
+      1: 100020
+    second: //RootNode
+  - first:
+      1: 100022
+    second: Hobo
+  - first:
+      1: 100024
+    second: PaperBoat
+  - first:
+      1: 100026
+    second: Pug
+  - first:
+      1: 100028
+    second: TreeBranch
+  - first:
+      4: 400000
+    second: Bottle
+  - first:
+      4: 400002
+    second: Box002
+  - first:
+      4: 400004
+    second: Box003
+  - first:
+      4: 400006
+    second: Box004
+  - first:
+      4: 400008
+    second: Crow
+  - first:
+      4: 400010
+    second: Crow2
+  - first:
+      4: 400012
+    second: Cylinder001
+  - first:
+      4: 400014
+    second: Cylinder002
+  - first:
+      4: 400016
+    second: Cylinder005
+  - first:
+      4: 400018
+    second: Cylinder012
+  - first:
+      4: 400020
+    second: //RootNode
+  - first:
+      4: 400022
+    second: Hobo
+  - first:
+      4: 400024
+    second: PaperBoat
+  - first:
+      4: 400026
+    second: Pug
+  - first:
+      4: 400028
+    second: TreeBranch
+  - first:
+      21: 2100000
+    second: Trees
+  - first:
+      21: 2100002
+    second: PaperBoat
+  - first:
+      21: 2100004
+    second: Crow
+  - first:
+      21: 2100006
+    second: CrowEyes
+  - first:
+      21: 2100008
+    second: BottleLiquid
+  - first:
+      21: 2100010
+    second: Bottle
+  - first:
+      21: 2100012
+    second: Beard
+  - first:
+      21: 2100014
+    second: 01 - Default
+  - first:
+      21: 2100016
+    second: Hair
+  - first:
+      21: 2100018
+    second: Beard2
+  - first:
+      21: 2100020
+    second: Material #535
+  - first:
+      21: 2100022
+    second: Material #570
+  - first:
+      21: 2100024
+    second: matt
+  - first:
+      21: 2100026
+    second: Eyelid
+  - first:
+      21: 2100028
+    second: eyes
+  - first:
+      21: 2100030
+    second: nose
+  - first:
+      21: 2100032
+    second: Material #687
+  - first:
+      21: 2100034
+    second: piss
+  - first:
+      21: 2100036
+    second: SimplePug
+  - first:
+      23: 2300000
+    second: Box002
+  - first:
+      23: 2300002
+    second: Box003
+  - first:
+      23: 2300004
+    second: Box004
+  - first:
+      23: 2300006
+    second: Cylinder001
+  - first:
+      23: 2300008
+    second: Cylinder002
+  - first:
+      23: 2300010
+    second: Cylinder012
+  - first:
+      23: 2300012
+    second: PaperBoat
+  - first:
+      23: 2300014
+    second: TreeBranch
+  - first:
+      33: 3300000
+    second: Box002
+  - first:
+      33: 3300002
+    second: Box003
+  - first:
+      33: 3300004
+    second: Box004
+  - first:
+      33: 3300006
+    second: Cylinder001
+  - first:
+      33: 3300008
+    second: Cylinder002
+  - first:
+      33: 3300010
+    second: Cylinder012
+  - first:
+      33: 3300012
+    second: PaperBoat
+  - first:
+      33: 3300014
+    second: TreeBranch
+  - first:
+      43: 4300000
+    second: TreeBranch
+  - first:
+      43: 4300002
+    second: PaperBoat
+  - first:
+      43: 4300004
+    second: Crow
+  - first:
+      43: 4300006
+    second: Cylinder002
+  - first:
+      43: 4300008
+    second: Cylinder001
+  - first:
+      43: 4300010
+    second: Hobo
+  - first:
+      43: 4300012
+    second: Crow2
+  - first:
+      43: 4300014
+    second: Box004
+  - first:
+      43: 4300016
+    second: Box003
+  - first:
+      43: 4300018
+    second: Cylinder012
+  - first:
+      43: 4300020
+    second: Pug
+  - first:
+      43: 4300022
+    second: Box002
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Crow
+  - first:
+      137: 13700002
+    second: Crow2
+  - first:
+      137: 13700004
+    second: Hobo
+  - first:
+      137: 13700006
+    second: Pug
   externalObjects: {}
   materials:
-    importMaterials: 1
-    materialName: 0
+    materialImportMode: 1
+    materialName: 1
     materialSearch: 1
     materialLocation: 1
   animations:
@@ -107,6 +271,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -118,6 +283,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Take 001
       takeName: Take 001
+      internalID: 0
       firstFrame: 0
       lastFrame: 207
       wrapMode: 0
@@ -149,21 +315,31 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
@@ -171,10 +347,13 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -184,14 +363,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

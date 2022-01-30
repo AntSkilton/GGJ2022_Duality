@@ -20,6 +20,9 @@ namespace StarterAssets
 		public float RotationSmoothTime = 0.12f;
 		[Tooltip("Acceleration and deceleration")]
 		public float SpeedChangeRate = 10.0f;
+		[Tooltip("Checking whether the player is moving or not")]
+		[SerializeField]
+		public bool isMoving = false;
 
 		[Space(10)]
 		[Tooltip("The height the player can jump")]
@@ -179,6 +182,15 @@ namespace StarterAssets
 			// note: Vector2's == operator uses approximation so is not floating point error prone, and is cheaper than magnitude
 			// if there is no input, set the target speed to 0
 			if (_input.move == Vector2.zero) targetSpeed = 0.0f;
+
+			if (targetSpeed == 0)
+            {
+				isMoving = false;
+            }
+			else
+            {
+				isMoving = true;
+            }
 
 			// a reference to the players current horizontal velocity
 			float currentHorizontalSpeed = new Vector3(_controller.velocity.x, 0.0f, _controller.velocity.z).magnitude;
