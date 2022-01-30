@@ -16,7 +16,7 @@ public class BlockerHandler : MonoBehaviour
                 if (!GameplayController.ShouldSeekLight)
                 {
                     GameplayController.IsInScoringZone = true;
-                    GameplayController.CurrentScore += 10 * Time.deltaTime;
+                    GameplayController.AddScore(10 * Time.deltaTime);
                 }
             }
         }
@@ -29,7 +29,7 @@ public class BlockerHandler : MonoBehaviour
                 if (GameplayController.ShouldSeekLight)
                 {
                     GameplayController.IsInScoringZone = true;
-                    GameplayController.CurrentScore += 10 * Time.deltaTime;
+                    GameplayController.AddScore(10 * Time.deltaTime);
                 }
             }
         }

@@ -45,6 +45,15 @@ public class GameplayController : MonoBehaviour
         LightswitchHandler();
     }
 
+    public void AddScore(float score)
+    {
+        CurrentScore += score;
+        if (CurrentScore >= ScoreTarget)
+        {
+            CurrentScore = ScoreTarget;
+        }
+    }
+
     private void LightswitchHandler()
     {
         /*if (CurrentTime < LevelTime / 4) { // Last quarter of the level the switching speeds up x2 for more difficulty

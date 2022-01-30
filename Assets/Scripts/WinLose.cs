@@ -9,6 +9,7 @@ public class WinLose : MonoBehaviour
 {
     public GameObject WinLabel;
     public GameObject LoseLabel;
+    public GameObject NextLevelLabel;
     private GameplayController gameController;
     private PlayerHealth playerHealth;
     private PlayerInput playerInput;
@@ -49,6 +50,7 @@ public class WinLose : MonoBehaviour
             }
             else
             {
+                NextLevelLabel.SetActive(true);
                 StartCoroutine(NextLevel());
             }
         }
