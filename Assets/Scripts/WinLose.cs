@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Text.RegularExpressions;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class WinLose : MonoBehaviour
@@ -10,6 +11,7 @@ public class WinLose : MonoBehaviour
     public GameObject LoseLabel;
     private GameplayController gameController;
     private PlayerHealth playerHealth;
+    private PlayerInput playerInput;
 
     void Start()
     {
@@ -26,7 +28,9 @@ public class WinLose : MonoBehaviour
         {
             throw new ArgumentNullException("No Player in scene!");
         }
+
         playerHealth = playerObj.GetComponent<PlayerHealth>();
+        playerInput = playerObj.GetComponent<PlayerInput>();
     }
 
     private static string LAST_LEVEL = "Level2";
@@ -54,6 +58,7 @@ public class WinLose : MonoBehaviour
             // If player runs out of health or time
             if (playerHealth.currentHealth <= 0 || gameController.CurrentTime <= 0f)
             {
+                playerInput.enabled = false;
                 LoseLabel.SetActive(true);
                 gameController.CurrentTime = 0.0f;
                 StartCoroutine(RestartLevel());
