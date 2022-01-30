@@ -3,10 +3,11 @@ using UnityEngine;
 public class GameplayController : MonoBehaviour
 {
     public GameObject[] ShadowBlockerVolumes;
-    public GameObject[] ShadowBlockerMeshes;
+    public GameObject[] LightBlockerVolumes;
+    public GameObject[] LightMaskMeshes;
     public int ScoreTarget;
     
-    [Min(60)]
+    [Range(60, 120)]
     public float LevelTime;
     [HideInInspector]
     public float CurrentTime;
@@ -31,7 +32,7 @@ public class GameplayController : MonoBehaviour
 
     private void Awake()
     {
-        CalculateRandomIntervals(); // This sets up the total number times the game makes a decision to play with a light blockers
+        CalculateLightblockerIntervals(); // This sets up the total number times the game makes a decision to play with a light blockers
         CurrentTime = LevelTime; // So we can keep a hard ref to the level's time
         m_secsPerLightswitchInterval = 10f - GameDifficulty;
     }
@@ -40,10 +41,10 @@ public class GameplayController : MonoBehaviour
     {
         CurrentTime -= Time.deltaTime;
         ToggleRandomBlockerHandler();
-        LightShadowSeekHandler();
+        LightswitchHandler();
     }
 
-    private void LightShadowSeekHandler()
+    private void LightswitchHandler()
     {
         /*if (CurrentTime < LevelTime / 4) { // Last quarter of the level the switching speeds up x2 for more difficulty
             m_secsPerLightswitchInterval /= 2;
@@ -54,8 +55,10 @@ public class GameplayController : MonoBehaviour
         }
         
         if (m_shouldToggleLightSwitch) {
-            for (int lightswitch = 0; lightswitch < ShadowBlockerMeshes.Length; lightswitch++) {
-                ShadowBlockerMeshes[lightswitch].SetActive(!ShadowBlockerMeshes[lightswitch].activeSelf);
+            for (int lightswitch = 0; lightswitch < LightMaskMeshes.Length; lightswitch++) {
+                LightMaskMeshes[lightswitch].SetActive(!LightMaskMeshes[lightswitch].activeSelf);
+                LightBlockerVolumes[lightswitch].SetActive(!LightBlockerVolumes[lightswitch].activeSelf);
+                ShadowBlockerVolumes[lightswitch].SetActive(!ShadowBlockerVolumes[lightswitch].activeSelf);
             }
             ShouldSeekLight ^= true;
             
@@ -65,26 +68,27 @@ public class GameplayController : MonoBehaviour
         }
     }
 
-    private void CalculateRandomIntervals() {
-        var totalBlocks = ShadowBlockerMeshes.Length;
-        var minTimePerBlocker = LevelTime / totalBlocks;
-        m_secsPerBlockerInterval = Mathf.RoundToInt(minTimePerBlocker - GameDifficulty);
-    }
-
     private void ToggleRandomBlockerHandler()
     {
         if (CurrentTime <= LevelTime - (m_secsPerBlockerInterval * m_blockerIntervalCounter)) {
             m_shouldToggleBlocker = true;
         }
         
-        if (m_shouldToggleBlocker) { // This toggles the shadow blocker volumes at random
-            var randomBlocker = Mathf.RoundToInt(Random.Range(0, ShadowBlockerMeshes.Length));
-            ShadowBlockerMeshes[randomBlocker].SetActive(!ShadowBlockerMeshes[randomBlocker].activeSelf);
+        if (m_shouldToggleBlocker) { // This toggles a shadow and light blocker volume at random, inverts the light and shadow mask
+            var randomBlocker = Mathf.RoundToInt(Random.Range(0, ShadowBlockerVolumes.Length));
+            LightMaskMeshes[randomBlocker].SetActive(!LightMaskMeshes[randomBlocker].activeSelf);
+            LightBlockerVolumes[randomBlocker].SetActive(!LightBlockerVolumes[randomBlocker].activeSelf);
             ShadowBlockerVolumes[randomBlocker].SetActive(!ShadowBlockerVolumes[randomBlocker].activeSelf);
 
             // Cleanup
             m_shouldToggleBlocker = false;
             m_blockerIntervalCounter++;
         }
+    }
+
+    private void CalculateLightblockerIntervals() {
+        var totalBlocks = LightMaskMeshes.Length;
+        var minTimePerBlocker = LevelTime / totalBlocks;
+        m_secsPerBlockerInterval = Mathf.RoundToInt(minTimePerBlocker - GameDifficulty);
     }
 }
