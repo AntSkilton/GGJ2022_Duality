@@ -25,9 +25,6 @@ public class ChangeLevelWithKeyboard : MonoBehaviour
                         case Key.Digit2:
                             LoadLevel(scenes[1]);
                             break;
-                        case Key.Digit3:
-                            LoadLevel(scenes[2]);
-                            break;
                     }
                 }
             }
